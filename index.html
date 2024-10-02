@@ -193,7 +193,7 @@
             </div>
             <div class="url-input">
                 <label for="urlInput">URL:</label>
-                <input type="text" id="urlInput" class="full-width" placeholder="https://www.x-g.ca">
+                <input type="text" id="urlInput" class="full-width" placeholder="https://www.metah.ca">
             </div>
         <div id="vcardInputs" class="hidden">
         <div class="input-group">
@@ -275,7 +275,7 @@
             let content;
             if (currentType === 'url') {
                 let url = document.getElementById('urlInput').value;
-                content = url.trim() ? url : 'https://x-g.ca';
+                content = url.trim() ? url : 'https://metah.ca';
             } else {
                 content = buildVCard();
             }
